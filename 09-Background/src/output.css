@@ -558,14 +558,86 @@ video {
   margin: 2rem;
 }
 
-.h-96 {
-  height: 24rem;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
-.bg-\[url\(\'\.\/img\/padrao\.svg\'\)\] {
-  background-image: url('./img/padrao.svg');
+.h-\[\] {
+  height: ;
 }
 
-.bg-no-repeat {
-  background-repeat: no-repeat;
+.h-\[2000px\] {
+  height: 2000px;
+}
+
+.max-w-screen-sm {
+  max-width: 640px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.bg-\[url\(\'\.\/img\/floresta\.jpg\'\)\] {
+  background-image: url('./img/floresta.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.p-12 {
+  padding: 3rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-4xl\/tight {
+  font-size: 2.25rem;
+  line-height: 1.25;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.decoration-2 {
+  text-decoration-thickness: 2px;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
